@@ -3,10 +3,13 @@ SLSfEi is a system to facilitate explosive installation processes in the mining 
 
 # System diagram
 ![system diagram](./SLSfEI.drawio.png)
+
 The system has 2 parts.
 - [Web Application](https://github.com/SLSfEi/web-app) that the operator can interface with.
 - [Scan Provider](https://github.com/SLSfEi/scan-provider-cpp) that process data from rplidar device.
 
 Both parts is then combine into a single [docker image](https://github.com/SLSfEi/docker-stack) for ease of deployment.
+
+The system is intended to be deploy on Raspberry Pi 4.
 
 Further details about each part are provided in their respective repositories.
