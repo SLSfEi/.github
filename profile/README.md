@@ -10,4 +10,5 @@ The system has 2 parts.
 
 Both parts is then combine into a single [docker container](https://github.com/SLSfEi/docker-stack) for ease of deployment.
 
-**Note:** The system is intended to be deploy on `raspberry pi 4` and `slamtec rplidar a1m8`. Further details about each part are provided in their respective repositories.
+**Note:** The system is intended to be deploy on `raspberry pi 4` and `slamtec rplidar a1m8`.
+**Note:** Further details about each part are provided in their respective repositories.
