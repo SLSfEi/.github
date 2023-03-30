@@ -10,6 +10,13 @@ The system has 2 parts.
 
 Both parts are then combined into a single [docker container](https://github.com/SLSfEi/docker-stack) for ease of deployment.
 
-**Note:** The system is intended to be deploy on `raspberry pi 4` and `slamtec rplidar a1m8`.
-
 **Note:** Further details about each part are provided in their respective repositories.
+
+# Hardwares
+The system is intended to be deploy on `raspberry pi 4` and `slamtec rplidar a1m8`.
+
+`raspberry pi 4` will have following programs installed:
+- `docker` and `docker-compose` to run containerized version of the system.
+- [`raspap-webgui`](https://github.com/RaspAP/raspap-webgui) to make wifi AP for portable access.
+
+`slamtec rplidar a1m8` will be connected to `raspberry pi 4` via a USB cable.
