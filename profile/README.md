@@ -2,7 +2,7 @@
 SLSfEi is a system to facilitate explosive installation processes in the mining industry. With rplidar device, the system can provide the operator with real time position data for accurate explosive installation. Which can reduce error and cost of this operation. The operator can easily interface with the system using a web browser on their smartphone or computer.
 
 # System diagram
-![system diagram](./SLSfEI.drawio.png)
+![system diagram](./profile/SLSfEI.drawio.png)
 
 The system has 2 parts.
 - [Web Application](https://github.com/SLSfEi/web-app) that the operator can interface with.
