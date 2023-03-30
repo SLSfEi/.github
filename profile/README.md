@@ -8,7 +8,7 @@ The system has 2 parts.
 - [Web Application](https://github.com/SLSfEi/web-app) that the operator can interface with.
 - [Scan Provider](https://github.com/SLSfEi/scan-provider-cpp) that process data from rplidar device.
 
-Both parts is then combine into a single [docker container](https://github.com/SLSfEi/docker-stack) for ease of deployment.
+Both parts are then combined into a single [docker container](https://github.com/SLSfEi/docker-stack) for ease of deployment.
 
 **Note:** The system is intended to be deploy on `raspberry pi 4` and `slamtec rplidar a1m8`.
 
